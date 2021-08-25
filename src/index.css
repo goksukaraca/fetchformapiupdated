@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  height: 30px;
+  position: relative;
+  border: 6px solid green;
+}
+
+.button-api {
+  height: 25px;
+    top: 50%;
+    position: inherit;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    align-items: center;
+    text-align: center;
+    display: flex ;
+    display: grid;
+    margin: auto;
+}
+
+.App-header{
+  text-align: center;
+}
+
+.form-api{
+  text-align: center;
+  display: grid;
+}
